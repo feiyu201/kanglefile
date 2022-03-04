@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>  
+RewriteEngine On
+RewriteRule ^mysql-yum/mysql56-community-el6/(.*)$ http://repo.mysql.com/yum/mysql-5.6-community/el/6/x86_64/$1 [R=302]
+RewriteRule ^mysql-yum/mysql56-community-el7/(.*)$ http://repo.mysql.com/yum/mysql-5.6-community/el/7/x86_64/$1 [R=302]
+RewriteRule ^mysql-yum/mysql57-community-el6/(.*)$ http://repo.mysql.com/yum/mysql-5.7-community/el/6/x86_64/$1 [R=302]
+RewriteRule ^mysql-yum/mysql57-community-el7/(.*)$ http://repo.mysql.com/yum/mysql-5.7-community/el/7/x86_64/$1 [R=302]
+RewriteRule ^mysql-yum/mysql80-community-el6/(.*)$ http://repo.mysql.com/yum/mysql-8.0-community/el/6/x86_64/$1 [R=302]
+RewriteRule ^mysql-yum/mysql80-community-el7/(.*)$ http://repo.mysql.com/yum/mysql-8.0-community/el/7/x86_64/$1 [R=302]
+RewriteRule ^mysql-yum/mysql80-community-el8/(.*)$ http://repo.mysql.com/yum/mysql-8.0-community/el/8/x86_64/$1 [R=302]
+</IfModule>
